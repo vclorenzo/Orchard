@@ -26,11 +26,10 @@ export const StyledImageSplit = styled.div`
 	}
 `;
 
-export const StyledTextSection = styled.div`
+export const StyledTextSection = styled.article`
 	display: grid;
 	width: 100%;
 	line-height: 2rem;
-	color: #989e9e;
 	h2 {
 		font-weight: normal;
 		font-size: 32px;

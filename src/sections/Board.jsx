@@ -4,7 +4,7 @@ import {
 	StyledContentContainer,
 } from '../components/Containers/index.styled';
 import {
-	StyledContainer,
+	StyledBoardContainer,
 	StyledImageSplit,
 	StyledLeftSection,
 	StyledTextSection,
@@ -17,7 +17,7 @@ const Board = () => {
 	return (
 		<MasterContainer>
 			<StyledContentContainer>
-				<StyledContainer>
+				<StyledBoardContainer>
 					<StyledLeftSection>
 						<img src={img1} alt="Image1" />
 					</StyledLeftSection>
@@ -28,7 +28,7 @@ const Board = () => {
 					<StyledTextSection>
 						<h2>ANSWER YOUR BODY'S NEEDS</h2>
 						<hr />
-						<p>
+						<p style={{ color: ' #989e9e' }}>
 							The way ingredients are sourced affects the way we nourish our
 							bodies. Author Mark Schatzker believes our body naturally develops
 							an appetite for the foods and nutrients it needs to be healthy,
@@ -37,13 +37,13 @@ const Board = () => {
 							mindful as your appetite guides you to consume according to your
 							body's needs
 						</p>
-						<p style={{ color: '#8b2a3b' }}>BE MINDFUL.</p>
-						<p style={{ color: '#f6fafb' }}>
+						<p style={{ color: '#bb172f' }}>BE MINDFUL.</p>
+						<p>
 							Sourcing local or organic food is a good way to start being more
 							mindful about what you're cooking and eating.
 						</p>
 					</StyledTextSection>
-				</StyledContainer>
+				</StyledBoardContainer>
 			</StyledContentContainer>
 		</MasterContainer>
 	);
