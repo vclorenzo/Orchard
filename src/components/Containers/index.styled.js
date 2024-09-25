@@ -13,4 +13,8 @@ export const StyledContentContainer = styled.div`
 	max-width: 1440px;
 	height: 100vh;
 	margin: 0 auto;
+
+	@media (max-width: 425px) {
+		min-height: fit-content;
+	}
 `;
