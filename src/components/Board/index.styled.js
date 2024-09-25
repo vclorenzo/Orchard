@@ -1,10 +1,24 @@
 import styled from 'styled-components';
+import { fadeIn } from '../../animation/animation';
 
 export const StyledBoardContainer = styled.div`
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 	grid-gap: 30px;
 	width: 100%;
+
+	& > div {
+		opacity: 0;
+		animation: ${fadeIn} 0.4s ease-in-out forwards;
+	}
+
+	& > div:nth-child(1) {
+		animation-delay: 0.2s;
+	}
+
+	& > div:nth-child(2) {
+		animation-delay: 0.4s;
+	}
 `;
 
 export const StyledLeftSection = styled.div`

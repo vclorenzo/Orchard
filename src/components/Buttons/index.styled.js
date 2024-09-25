@@ -8,6 +8,7 @@ export const StyledTextButton = styled.button`
 	border-bottom: 2px solid #bb172f;
 	width: 140px;
 	height: 60px;
+	transition: background-color 0.3s ease, border 0.3s ease;
 
 	&:hover {
 		background-color: #bb172f;
