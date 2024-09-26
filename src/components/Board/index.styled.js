@@ -26,6 +26,10 @@ export const StyledLeftSection = styled.div`
 		width: 100%;
 		height: 100%;
 		border-radius: 8px;
+
+		&:hover {
+			cursor: pointer;
+		}
 	}
 `;
 
@@ -37,6 +41,10 @@ export const StyledImageSplit = styled.div`
 		width: 100%;
 		height: 100%;
 		border-radius: 8px;
+
+		&:hover {
+			cursor: pointer;
+		}
 	}
 `;
 
