@@ -20,7 +20,7 @@ const articles = [
 		image: img1,
 		title: 'Summer Lunch Menu By Mark Best',
 		description:
-			"AEG Ambassador Mark Best's summer eats are guaranteed to help you make the most of the warmer weather and entertaining at home",
+			"AEG Ambassador Mark Best's summer eats are guaranteed to help you make the most of the warmer weather and entertaining at home AEG Ambassador Mark Best's summer eats are guaranteed to help you make the most of the warmer weather and entertaining at home",
 	},
 	{
 		id: 2,
@@ -53,7 +53,15 @@ const Articles = () => {
 								<h3>{article.title}</h3>
 								<p>{article.description}</p>
 							</StyledCardText>
-							<StyledTextButton>READ MORE</StyledTextButton>
+
+							<StyledTextButton>
+								<a
+									href={`#${article.title}`}
+									onClick={() => console.log(article.title)}
+								>
+									READ MORE
+								</a>
+							</StyledTextButton>
 						</StyledCards>
 					))}
 				</StyledCardContainer>

@@ -28,12 +28,22 @@ export const StyledCards = styled.div`
 
 export const StyledCardText = styled.div`
 	min-height: 200px;
-
 	h3 {
+		overflow: hidden;
+		display: -webkit-box;
+		-webkit-box-orient: vertical;
+		-webkit-line-clamp: 1;
+		text-overflow: ellipsis;
 		font-size: 22px;
 		font-weight: normal;
 	}
+
 	p {
+		overflow: hidden;
+		display: -webkit-box;
+		-webkit-box-orient: vertical;
+		-webkit-line-clamp: 4;
+		text-overflow: ellipsis;
 		font-size: 20px;
 		color: #989e9e;
 	}
