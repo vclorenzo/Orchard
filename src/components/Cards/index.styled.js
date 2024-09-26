@@ -2,8 +2,8 @@ import styled from 'styled-components';
 
 export const StyledCardContainer = styled.div`
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-	grid-gap: 30px;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-gap: 25px;
 	width: 100%;
 
 	@media (max-width: 768px) {

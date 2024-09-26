@@ -3,8 +3,8 @@ import { fadeIn } from '../../animation/animation';
 
 export const StyledBoardContainer = styled.div`
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-	grid-gap: 30px;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-gap: 25px;
 	width: 100%;
 
 	& > div {
@@ -35,7 +35,7 @@ export const StyledLeftSection = styled.div`
 
 export const StyledImageSplit = styled.div`
 	display: grid;
-	grid-gap: 30px;
+	grid-gap: 25px;
 	grid-template-rows: repeat(2, 1fr);
 	img {
 		width: 100%;
