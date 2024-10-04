@@ -43,7 +43,7 @@ const Articles = () => {
 		<MasterContainer>
 			<StyledContentContainer>
 				<StyledHeader>
-					<h2>ALL THE LATEST FROM AEG</h2>
+					<h2>FUCK THIS SHIT</h2>
 				</StyledHeader>
 				<StyledCardContainer>
 					{articles.map((article) => (
