@@ -11,3 +11,5 @@ Currently, two official plugins are available:
 
 - Vite - for faster React App Setup
 - Styled components - for enhanced component customization and reusability
+
+# THANK YOU FOR WASTING MY TIME
